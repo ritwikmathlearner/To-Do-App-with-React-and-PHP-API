@@ -1,0 +1,45 @@
+.form {
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form label {
+font-size: 1.5rem;
+padding-right: 0.5rem;
+}
+
+.form input[type="text"] {
+padding: 0.5rem 0.25rem;
+margin-right: 1rem;
+border-radius: 5px;
+border: none;
+outline: none;
+}
+
+.form input[type="button"] {
+padding: 0.5rem 2rem;
+border: none;
+cursor: pointer;
+outline: none;
+text-transform: uppercase;
+background: #03071e;
+color: #aaa;
+border-radius: 10px;
+box-shadow: -1px -1px 2px 0 #222, 1px 1px 2px 0 #000;
+transition: all 0.5s ease;
+}
+
+#btn[value] {
+font-family: "Crete Round", serif;
+}
+
+.form input[type="button"]:hover {
+box-shadow: -3px -3px 5px 0 #222, 3px 3px 5px 0 #000;
+}
+
+.form input[type="button"]:active {
+box-shadow: inset -1px -1px 2px 0 #222, inset 1px 1px 2px 0 #000;
+color: #444;
+}
